@@ -45,7 +45,7 @@ Go over key aspects of code in this section. Both link to the file, include snip
 ### Major Challenges
 Key aspects could include pieces that your struggled on and/or pieces that you are proud of and want to show off.
 
-The complexity of mapping different skin types to specific makeup products required careful consideration. It involved creating comprehensive conditional statements to cover various scenarios.
+I struggle with narrowing down my ideas and tend to overthink a lot. I am proud of my ability to code, create my own instructions, and bring my ideas to life.
 
 
 
