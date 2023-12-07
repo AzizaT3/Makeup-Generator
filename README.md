@@ -30,7 +30,6 @@ Type "Y" for yes or "N" for no and press Enter.
 If you chose "Y" for primer and setting spray recommendations, the program will provide suggestions for these products.
 
 
-
 ## Installation Instructions
 If we wanted to run this project locally, what would we need to do?  If we need to get API key's include that information, and also command line startup commands to execute the project. If you have a lot of dependencies, you can also include a requirements.txt file, but make sure to include that we need to run `pip install -r requirements.txt` or something similar.
 
@@ -67,6 +66,8 @@ The program will conclude with a message, "Enjoy your match!"
 How did you test your code? What did you do to make sure your code was correct? If you wrote unit tests, you can link to them here. If you did run tests, make sure you document them as text files, and include them in your submission. 
 
 > _Make it easy for us to know you *ran the project* and *tested the project* before you submitted this report!_
+
+
 Test with different skin types: "oily," "dry," "combination."
 Test responses to primer and setting spray with "Y" and "N."
 Test with invalid inputs (e.g., invalid skin type).
@@ -95,4 +96,4 @@ Write at least a paragraph about your experience in this course. What did you le
 
 In the beginning, this course posed a significant challenge for me. I contemplated dropping it multiple times due to falling far behind in my work. However, after re-watching videos, reviewing the material, and seeking assistance whenever needed, I successfully navigated through the semester. I particularly relished the projects and group assignments we undertook in class. Working collaboratively in groups helped me learn more, and I also found value in watching instructional videos on YouTube. Through these activities, I finally grasped the concepts of Python, attained proficiency in writing code, and cultivated a better overall understanding of coding.
 
-One thing I want to learn more about is how to implement computer vision to identify any skin concerns and generate a list of skincare/makeup for you. Additionally, I want to learn how to advance this project further in the future.
+One thing I want to learn more about is how to implement computer vision to identify any skin concerns and generate a list of skincare routines for you. Additionally, I want to learn how to advance this project further in the future.
