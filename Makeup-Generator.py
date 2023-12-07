@@ -67,24 +67,28 @@ def get_setting_spray(skin_type):
 
 
 def main():
-    """
-    Main function to interact with the user and provide makeup recommendations.
-    """
     print("Welcome to Makeup Helper To Find You The Perfect Base!")
-    
-    # Take user input for skin type
-    skin_type = input("Input your skin type: ")
+
+    # Take user input for skin type with input validation
+    valid_skin_types = ["oily", "dry", "combination"]
+    while True:
+        skin_type = input("Input your skin type: ").lower()
+        if skin_type in valid_skin_types:
+            break
+        else:
+            print("Invalid input. Please enter 'oily', 'dry', or 'combination'.")
+
     foundation_recommendation = get_foundation_type(skin_type)
-    
+
     print(f"Recommend Type of Foundation for your skin type: {foundation_recommendation}")
-    
+
     # Take user input for primer and setting spray preference
     want_primer_setting_spray = input("Would you like matching primer and setting spray? (Y/N): ")
-    
+
     if want_primer_setting_spray.lower() == "y":
         primer_recommendation = get_primer(skin_type)
         setting_spray_recommendation = get_setting_spray(skin_type)
-        
+
         print(f"Recommended Primer: {primer_recommendation}")
         print(f"Recommended Setting Spray: {setting_spray_recommendation}")
     elif want_primer_setting_spray.lower() == "n":
