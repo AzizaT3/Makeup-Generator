@@ -76,7 +76,18 @@ Test with less common or unconventional skin types.
 ## Missing Features / What's Next
 Focus on what you didn't get to do, and what you would do if you had more time, or things you would implement in the future. 
 
-If I had more time, I would focus on improving my understanding of recursion. I would dedicate additional hours to studying the fundamental concepts and principles behind recursion, perhaps seeking out additional resources such as tutorials, articles, or engaging in practical exercises to reinforce my comprehension. Additionally, I might explore different examples and real-world applications of recursion to gain a more comprehensive understanding of its utility. Going forward, I would implement a structured plan for learning and practicing recursion to build a solid foundation and enhance my problem-solving skills in this area.
+
+Unimplemented Features: While the current version provides personalized makeup recommendations based on skin type, I had initially planned to incorporate a feature for users to input specific skin concerns. This would enable the program to offer even more tailored recommendations, considering factors such as acne, dry patches, or redness.
+
+
+Enhancements: One area for improvement is the refinement of the recommendation algorithm. With more time, I would explore machine learning techniques to enhance the accuracy of foundation suggestions. This could involve training a model on a broader dataset of makeup products and user preferences.
+
+
+User Feedback Integration:As the project was developed independently, there wasn't an opportunity to gather direct user feedback. In the future, I would deploy the project and collect user responses to improve the user interface, address any usability issues, and fine-tune the recommendation engine based on real-world feedback.
+
+Extended Functionality: I am keen on implementing computer vision to identify skin concerns visually. By integrating this technology, the Makeup Generator could offer a more comprehensive solution, suggesting not only suitable foundation types but also recommending skincare routines based on detected skin conditions.
+
+Advanced Features: To further enhance the project, I would explore integrating with external APIs to fetch real-time data on makeup products. This would ensure that the recommendations are always up-to-date with the latest product offerings and advancements in the beauty industry.
 
 
 ## Final Reflection
@@ -84,4 +95,4 @@ Write at least a paragraph about your experience in this course. What did you le
 
 In the beginning, this course posed a significant challenge for me. I contemplated dropping it multiple times due to falling far behind in my work. However, after re-watching videos, reviewing the material, and seeking assistance whenever needed, I successfully navigated through the semester. I particularly relished the projects and group assignments we undertook in class. Working collaboratively in groups helped me learn more, and I also found value in watching instructional videos on YouTube. Through these activities, I finally grasped the concepts of Python, attained proficiency in writing code, and cultivated a better overall understanding of coding.
 
-One thing I want to learn more about is how to implement computer vision to identify any skin concerns and generate a list of skincare routines for you. Additionally, I want to learn how to advance this project further in the future.
+One thing I want to learn more about is how to implement computer vision to identify any skin concerns and generate a list of skincare/makeup for you. Additionally, I want to learn how to advance this project further in the future.
