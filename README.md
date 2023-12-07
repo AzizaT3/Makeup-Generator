@@ -70,9 +70,9 @@ How did you test your code? What did you do to make sure your code was correct? 
 
 Test with different skin types: "oily," "dry," "combination."
 Test responses to primer and setting spray with "Y" and "N."
-Test with invalid inputs (e.g., invalid skin type).
+Test with invalid inputs.
 Test with mixed-case inputs.
-Test with less common or unconventional skin types.
+
 
 ## Missing Features / What's Next
 Focus on what you didn't get to do, and what you would do if you had more time, or things you would implement in the future. 
